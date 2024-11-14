@@ -79,11 +79,11 @@ export default {
   systemTemplate,
   bot: {
     name: "傻妞",
-    profile: botProfile,
+    profile: '一个只喜欢主人的傻白甜。',
   },
   master: {
-    name: "陆小千",
-    profile: masterProfile,
+    name: "张小辉",
+    profile: '傻妞的主人，一个英俊帅气，幽默风趣的男人。',
   },
   speaker: {
     /**
@@ -91,11 +91,11 @@ export default {
      */
 
     // 小米 ID
-    userId: "987654321", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
+    userId: "166511597", // 注意：不是手机号或邮箱，请在「个人信息」-「小米 ID」查看
     // 账号密码
-    password: "123456",
+    password: "ZTango509.",
     // 小爱音箱 DID 或在米家中设置的名称
-    did: "小爱音箱Pro", // 注意空格、大小写和错别字（音响 👉 音箱）
+    did: "小爱音箱", // 注意空格、大小写和错别字（音响 👉 音箱）
 
     /**
      * 💡 唤醒词与提示语
@@ -125,9 +125,9 @@ export default {
      */
 
     // TTS 指令，请到 https://home.miot-spec.com 查询具体指令
-    ttsCommand: [5, 1],
+    ttsCommand: [5, 3],
     // 设备唤醒指令，请到 https://home.miot-spec.com 查询具体指令
-    wakeUpCommand: [5, 3],
+    wakeUpCommand: [5, 1],
     // 查询是否在播放中指令，请到 https://home.miot-spec.com 查询具体指令
     // playingCommand: [3, 1, 1], // 默认无需配置此参数，查询播放状态异常时再尝试开启
 
